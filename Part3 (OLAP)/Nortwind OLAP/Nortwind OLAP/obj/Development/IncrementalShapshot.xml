@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Nortwind OLAP</Database>
+    <Server>localhost\SQL2019</Server>
+    <ConnectionString>Data Source=localhost\SQL2019;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>HhrRgUTBLh3KOO4/BHpnElNTDHU=9.6.2024. 16:51:519.6.2024. 16:51:51</TimeStamp>
+        <ID>
+          <String>Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>26Qnf1fw+esauIvQtKcE7gJZDiI=9.6.2024. 21:20:269.6.2024. 16:56:49</TimeStamp>
+        <ID>
+          <String>Northwind DS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yB8FtSNG30NNV5KzPU6j16kik5s=10.6.2024. 2:31:329.6.2024. 17:08:59</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G3IkCLWRkMEQo/6lIwreGaZBQeY=10.6.2024. 2:32:569.6.2024. 18:05:03</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eDP/4/lWWmeZKK2s4GttasbWsbE=10.6.2024. 2:31:329.6.2024. 20:29:13</TimeStamp>
+        <ID>
+          <String>Customers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PLNMfLAiQ71KDUpzmV3FhkT66Ks=10.6.2024. 2:31:329.6.2024. 20:34:24</TimeStamp>
+        <ID>
+          <String>Shippers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cHqS/GCtXYeQ5Vnv4rz4ruILg38=10.6.2024. 2:31:329.6.2024. 20:36:31</TimeStamp>
+        <ID>
+          <String>Delay</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G7KbaG9RM7zOLL/ZUPjfLvb2i2c=10.6.2024. 2:31:329.6.2024. 20:37:25</TimeStamp>
+        <ID>
+          <String>Payment Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K+fLGYFS/bnWEqy+OfltA8PRAXA=10.6.2024. 2:32:569.6.2024. 20:38:35</TimeStamp>
+        <ID>
+          <String>Products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>K4xJ3K7QJt8vDZBsVdazklKHlo8=10.6.2024. 2:31:3110.6.2024. 1:23:03T8QqktH/TNl19LPvFZkc49baZAA=10.6.2024. 2:31:3210.6.2024. 1:23:03</TimeStamp>
+        <ID>
+          <String>Orders</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZR5btcIAQQiwpy4zCSspAGso5cg=10.6.2024. 3:10:5110.6.2024. 2:00:27rOG2kZIRQeGzyGvnLHPa62LTSWs=10.6.2024. 2:32:5610.6.2024. 2:00:27</TimeStamp>
+        <ID>
+          <String>OrderItems</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>BG7U98VosMl8TDbOwOOO0gPH2IM=9.6.2024. 16:38:379.6.2024. 16:38:36</TimeStamp>
+      <ID>
+        <String>Nortwind OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-06-10T01:11:17.606667Z</LastDeployed>
+</DeploymentSnapshot>

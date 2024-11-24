@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\OrderItems.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|solutionrelative:Nortwind OLAP\\OrderItems.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Orders.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|solutionrelative:Nortwind OLAP\\Orders.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Northwind DS.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{8269AFD5-2C60-4AD2-8885-F9552E4B1BF9}|Nortwind OLAP\\Nortwind OLAP.dwproj|solutionrelative:Nortwind OLAP\\Northwind DS.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderItems.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\OrderItems.cube",
+              "RelativeDocumentMoniker": "Nortwind OLAP\\OrderItems.cube",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\OrderItems.cube [Design]",
+              "RelativeToolTip": "Nortwind OLAP\\OrderItems.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-10T00:18:53.492Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Orders.cube",
+              "RelativeDocumentMoniker": "Nortwind OLAP\\Orders.cube",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Orders.cube [Design]",
+              "RelativeToolTip": "Nortwind OLAP\\Orders.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-10T00:10:56.811Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Northwind DS.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Northwind DS.dsv",
+              "RelativeDocumentMoniker": "Nortwind OLAP\\Northwind DS.dsv",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FER_SKRIPTE\\POSL INT\\DZ5 (OLAP)\\Nortwind OLAP\\Nortwind OLAP\\Northwind DS.dsv [Design]",
+              "RelativeToolTip": "Nortwind OLAP\\Northwind DS.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-09T14:56:59.994Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
