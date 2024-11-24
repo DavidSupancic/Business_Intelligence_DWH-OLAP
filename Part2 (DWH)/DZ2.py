@@ -2,10 +2,10 @@ import pyodbc
 from datetime import datetime
 
 #connect to DB
-SERVER = 'DESKTOP-6M9PVUF\SQL2019'
-DATABASE = 'Northwind_<Supancic>SP'
-USERNAME = 'DESKTOP-6M9PVUF\PC'
-PASSWORD = '6b5u#Ii2uw'
+SERVER = ''
+DATABASE = ''
+USERNAME = ''
+PASSWORD = ''
 ENCRYPT = "no"
 
 connectionString = f'DRIVER={{ODBC Driver 18 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};Trusted_Connection=yes; Encrypt={ENCRYPT}'
