@@ -25,6 +25,7 @@ Scripting with Python to automate data transformations and validations.
 ## TECHNOLOGIES USED
 SQL Server Management Studio (SSMS): For DWH creation and data management.
 Visual Studio: For designing OLAP cubes and schema modeling.
+SQL Server Analysis Services (SSAS): For building and deploying OLAP cubes.
 Python: For automating ETL processes and advanced data handling.
 SQL: For writing complex queries, creating tables, and performing transformations.
 
@@ -45,4 +46,7 @@ Flexible granularity for both high-level and detailed analysis.
 Data Warehouse (DWH): A centralized repository for structured data optimized for query and analysis.
 ETL: A pipeline to extract data from sources, transform it into usable formats, and load it into the DWH.
 OLAP Cubes: Multidimensional data structures that support quick analysis of large datasets.
+- Built using SSAS for optimized analytical processing
+- Implemented multiple measure groups for various business metrics
+- Created calculated members for advanced business calculations
 Granularity: The level of detail in stored data, with fOrders for high-level metrics and fOrderItems for granular insights.
